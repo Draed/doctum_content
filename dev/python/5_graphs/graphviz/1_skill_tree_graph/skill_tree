@@ -1,0 +1,14 @@
+digraph {
+	Python
+	"Basic Programming" -> Python
+	"Intermediate Programming" -> Python
+	"Basic Programming"
+	"Programming Fundamentals" -> "Basic Programming"
+	"Intermediate Programming"
+	"Basic Programming" -> "Intermediate Programming"
+	Algorithms -> "Intermediate Programming"
+	Algorithms
+	"Data Structures" -> Algorithms
+	"Data Structures"
+	Python -> "Data Structures"
+}

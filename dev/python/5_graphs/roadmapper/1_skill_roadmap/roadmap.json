@@ -1,0 +1,47 @@
+{
+    "title": "DevOps Engineer Roadmap",
+    "nodes": [
+      {
+        "name": "Learn Linux Basics",
+        "type": "step"
+      },
+      {
+        "name": "Learn a Scripting Language (e.g., Bash, Python)",
+        "type": "step"
+      },
+      {
+        "name": "Version Control (e.g., Git)",
+        "type": "step"
+      },
+      {
+        "name": "Continuous Integration (CI) Tools (e.g., Jenkins, Travis CI)",
+        "type": "step"
+      },
+      {
+        "name": "Infrastructure as Code (IaC) (e.g., Terraform, CloudFormation)",
+        "type": "step",
+        "children": [
+          {
+            "name": "Cloud Providers (e.g., AWS, Azure, GCP)",
+            "type": "step",
+            "start" : "2023-01-11",
+            "end" : "2023-03-20"
+          },
+          {
+            "name": "Configuration Management Tools (e.g., Ansible, Puppet)",
+            "type": "step",
+            "start" : "2023-01-11",
+            "end" : "2023-03-20"
+          }
+        ]
+      },
+      {
+        "name": "Containerization (e.g., Docker, Kubernetes)",
+        "type": "step"
+      },
+      {
+        "name": "Monitoring and Logging (e.g., Prometheus, ELK Stack)",
+        "type": "step"
+      }
+    ]
+  }
